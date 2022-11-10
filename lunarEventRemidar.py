@@ -1,9 +1,8 @@
 # Event Remindar to convert from lunar dates to solar dates:
-# Copyright (C) 2022 Eunice Lee <euncholee@gmail.com>
+# Copyright (C) 2022 Eun Lee <euncholee@gmail.com>
 
 import datetime
 from lunardate import LunarDate
-
 
 def create_event():
     name = input("------- Name : ")
@@ -12,7 +11,6 @@ def create_event():
     dd = input("------- Day of Birth : ")
 
     print_event(name, yy, mm, dd)
-
 
 def print_event(name, yy, mm, dd):
     print ('Lunar birthday of ' + name + ' : ' + yy + '/' + mm  + '/' + dd)
